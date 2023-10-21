@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { HousingLocationComponent } from '../housing-location/housing-location.component';
+import { Component } from '@angular/core'
+import { CommonModule } from '@angular/common'
+import { HousingLocationComponent } from '../housing-location/housing-location.component'
 import { HousingLocation } from '../housing-location'
 
 @Component({
@@ -126,5 +126,5 @@ export class HomeComponent {
       wifi: true,
       laundry: true
     }
-  ];
+  ]
 }
