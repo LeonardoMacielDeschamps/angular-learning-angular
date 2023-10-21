@@ -8,7 +8,7 @@ describe('HousingLocationComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [HousingLocationComponent]
+      imports: [HousingLocationComponent],
     })
     fixture = TestBed.createComponent(HousingLocationComponent)
     component = fixture.componentInstance
